@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1% 13%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 10px;
+}
+.nome{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.links-nav{
+    width: 50vw;
+    display: flex;
+    justify-content:space-between;
+}
+
+.links-nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 13%;
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.descricao{
+    padding: 1rem 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.fotoPerfil{
+    max-width: 368px;
+}
+
+.link-sociais{
+    display: flex;
+
+}
+.link-sociais a{
+    text-decoration: none;
+    margin-right: 4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+.link-sociais img{
+    width: 16px;
+    margin-left: 5px;
+}
+
+.sobre{
+    background-color: #EAF2FD;
+    padding: 4% 38% 4% 13%;
+}
+.titulo-sobre{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.texto-sobre{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.skill, .hobbies{
+    text-align: center;
+    padding: 3% 13%;
+    
+}
+.skills-titulo, .hobbies-titulo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.skill ul, .hobbies ul{
+    padding: 8rem 0 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.skill p, .hobbies p{
+    font-weight: 700;
+    padding-top: 0.5rem;
+}
+.skill img, .hobbies img{
+    max-width: 40px;
+}
