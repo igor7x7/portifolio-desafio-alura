@@ -1,7 +1,7 @@
 # portifolio-desafio-alura
 Meu portfólio
 
-Link-Pages: 
+Link-Pages: https://igor7x7.github.io/portifolio-desafio-alura/
 
 Descrição
 Bem vindos ao primeiro desafio do Challenge Front End!
